@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/p_queue"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="A priority queue is an abstract data type which is like a regular queue or stack data structure, but where additionally each element has a 'priority' associated with it. 
+In a priority queue, an element with high priority is served before an element with low priority. If two elements have the same priority, they are served according to their order in the queue.
+A priority queue is not a heap. 
+A priority queue is an abstract concept like 'a list' or 'a map'; just as a list can be implemented with a linked list or an array, a priority queue can be implemented with a heap or a variety of other methods." />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.03"
+        android:scaleType="fitCenter"
+        android:src="@drawable/q31" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="120dp"
+        android:layout_height="61dp"
+        android:layout_gravity="left"
+        android:layout_marginRight="0dp"
+        android:text="@string/left_arrow"
+        android:textSize="40sp" />
+
+</LinearLayout>

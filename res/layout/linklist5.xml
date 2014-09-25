@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/double_linklist"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="In a doubly linked list, each node contains, besides the next-node link, a second link field pointing to the previous node in the sequence. 
+The two links may be called forward and backward, or next and previous.
+A doubly linked list is the linked list whose nodes contain three fields: an integer value, the link forward to the next node, and the link backward to the previous node." />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.03"
+        android:scaleType="fitCenter"
+        android:src="@drawable/l21" />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="120dp"
+        android:layout_height="61dp"
+        
+        android:text="@string/left_arrow"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="120dp"
+        android:layout_height="61dp"
+        android:layout_gravity="right"
+        android:layout_marginLeft="80dp"
+        android:text="@string/right_arrow"
+        android:textSize="40sp" />
+</LinearLayout>
+</LinearLayout>

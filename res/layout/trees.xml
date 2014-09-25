@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+   
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="@string/heading4"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="match_parent"
+    android:layout_height="252dp"
+    
+    android:scaleType="fitStart"
+    android:src="@drawable/t131" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <ScrollView
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="128dp" >
+        
+         <TextView
+             android:id="@+id/textView2"
+             android:layout_width="match_parent"
+             android:layout_height="128dp"
+             android:text="A tree data structure can be defined recursively (locally) as a collection of nodes (starting at a root node), where each node is a data structure consisting of a value, together with a list of references to nodes (the children), with the constraints that no reference is duplicated, and none points to the root. 
+
+A tree simulates a hierarchical tree structure, with a root value and subtrees of children, represented as a set of linked nodes. Alternatively, a tree can be defined abstractly as a whole (globally) as an ordered tree, with a value assigned to each node. 
+
+Both these perspectives are useful: while a tree can be analyzed mathematically as a whole, when actually represented as a data structure it is usually represented and worked with separately by node (rather than as a list of nodes and an adjacency list of edges between nodes, as one may represent a digraph, for instance). 
+
+For example, looking at a tree as a whole, one can talk about the parent node of a given node, but in general as a data structure a given node only contains the list of its children, but does not contain a reference to its parent. 
+
+A tree is a non-linear data structure that consists of a root node and potentially many levels of additional nodes that form a hierarchy. 
+
+A tree can be empty with no nodes called the null or empty tree." />
+ </ScrollView>
+    </LinearLayout>
+
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    
+<Button
+    android:id="@+id/button1"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:text="@string/illustration" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="0dp"
+    android:text="@string/term" />
+
+ </LinearLayout>
+</LinearLayout>

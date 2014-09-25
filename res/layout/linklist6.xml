@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/circular_linklist"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="In the last node of a list, the link field often contains a null reference, a special value used to indicate the lack of further nodes. 
+A less common convention is to make it point to the first node of the list. In that case, the list is said to be 'circular' or 'circularly linked'; otherwise it is said to be 'open' or 'linear'.
+In the case of a circular doubly linked list, the only change that occurs is that the end, or 'tail', of the said list is linked back to the front, or 'head', of the list and vice versa." />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.03"
+        android:scaleType="fitCenter"
+        android:src="@drawable/l11" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="120dp"
+        android:layout_height="61dp"
+        android:layout_gravity="left"
+        android:layout_marginRight="0dp"
+        android:text="@string/left_arrow"
+        android:textSize="40sp" />
+
+</LinearLayout>

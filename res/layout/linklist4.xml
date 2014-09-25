@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/single_linklist"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Singly linked lists contain nodes which have a data field as well as a next field, which points to the next node in line of nodes.
+A singly linked list is the linked list whose nodes contain two fields: an integer value and a link to the next node." />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.03"
+        android:scaleType="fitCenter"
+        android:src="@drawable/l171" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="120dp"
+        android:layout_height="61dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="0dp"
+        android:text="@string/right_arrow"
+        android:textSize="40sp" />
+
+</LinearLayout>

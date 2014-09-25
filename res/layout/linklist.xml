@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+   
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="@string/heading3"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="match_parent"
+    android:layout_height="249dp"
+    android:scaleType="fitStart"
+    android:src="@drawable/l41" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <ScrollView
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="128dp" >
+        
+         <TextView
+             android:id="@+id/textView2"
+             android:layout_width="match_parent"
+             android:layout_height="128dp"
+             android:text="A linked list is a data structure consisting of a group of nodes which together represent a sequence. Under the simplest form, each node is composed of a head and a pointer (in other words, a link) to the next node in the sequence; more complex variants add additional links. 
+
+The last node is linked to a terminator used to signify the end of the list. Linked lists allow insertion and removal of nodes at any point in the list, and can do so with a constant number of operations if the link previous to the link being added or removed is maintained during list traversal. 
+
+Linked lists by themselves do not allow random access to the data, or any form of efficient indexing. Thus, many basic operations — such as obtaining the last node of the list (assuming that the last node is not maintained as separate node reference in the list structure), or finding a node that contains a given head, or locating the place where a new node should be inserted — may require scanning most or all of the list elements.
+             " />
+ </ScrollView>
+    </LinearLayout>
+
+
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/illustration" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="0dp"
+    android:text="@string/types" />
+<Button
+    android:id="@+id/button3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="0dp"
+    android:text="@string/operation" />
+
+ </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dstutorial"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.dstutorial.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.List"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.LIST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Linklist"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.LINKLIST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Stacks"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.STACKS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Queue"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.QUEUE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Trees"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.TREES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+         <activity
+            android:name="com.example.dstutorial.Linklist1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.LINKLIST1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+         <activity
+            android:name="com.example.dstutorial.Linklist2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.LINKLIST2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+         <activity
+            android:name="com.example.dstutorial.Linklist3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.LINKLIST3" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+         <activity
+            android:name="com.example.dstutorial.Linklist4"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.LINKLIST4" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+         <activity
+            android:name="com.example.dstutorial.Linklist5"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.LINKLIST5" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+         <activity
+            android:name="com.example.dstutorial.Linklist6"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.LINKLIST6" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+         <activity
+            android:name="com.example.dstutorial.Linklist7"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.LINKLIST7" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Linklist10"
+            android:label="@string/app_name" 
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.LINKLIST10" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Queue1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.QUEUE1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Queue2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.QUEUE2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Queue3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.QUEUE3" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Queue4"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.QUEUE4" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Queue5"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.QUEUE5" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Queue7"
+            android:label="@string/app_name" 
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.QUEUE7" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Stack1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.STACK1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Stack2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.STACK2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Stack3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.STACK3" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Stack4"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.STACK4" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Stack9"
+            android:label="@string/app_name" 
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.STACK9" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Stack10"
+            android:label="@string/app_name" 
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.STACK10" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Stack11"
+            android:label="@string/app_name" 
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.STACK11" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Stack12"
+            android:label="@string/app_name" 
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.STACK12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Tree1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.TREE1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Tree2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.TREE2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Tree3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.TREE3" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Tree6"
+            android:label="@string/app_name" 
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.TREE6" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.Tree7"
+            android:label="@string/app_name" 
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.TREE7" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.dstutorial.About"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dstutorial.ABOUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+             
+        </activity>
+    </application>
+
+</manifest>
